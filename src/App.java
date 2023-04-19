@@ -42,11 +42,18 @@ public class App {
         Naranjas.registrarN("Mediana", variedades.get(opcion));
         opcion = entrada.nextInt();
         Naranjas.registrarN("Extra Grande", variedades.get(opcion));
-
+        
+        entrada.close();
         Naranjas.mostrarN();
         System.out.println(" ");
 
         // Registro de pollos
+        Pollos.registrarP(3.5);
+        Pollos.registrarP( 3.2);
+        Pollos.registrarP( 4.1);
+        Pollos.registrarP(3.8);
+
+        Pollos.mostrarP();
 
     }
 
