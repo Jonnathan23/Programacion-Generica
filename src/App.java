@@ -6,11 +6,11 @@ public class App {
     public static void main(String[] args) throws Exception {
         Scanner entrada = new Scanner(System.in);
         var opcion = 0;
-        Map<Integer, String> variedades = new HashMap<>();
+        Map<Integer, String> variedades = new HashMap<>(); // * { Arreglo asociativo
         variedades.put(1, "Navel");
         variedades.put(2, "Tarocco");
         variedades.put(3, "Sanguinello");
-        variedades.put(4, "Moro");
+        variedades.put(4, "Moro");                          //* }
 
         var menu = "1._ Registrar Mandarina\n" +
                 "2._ Registrar Naranja\n" +
